@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    max-height: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-content {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+    padding: 2em;
+    
+}
+
+.contact-section,
+.info-section {
+    flex: 1;
+    max-width: 40%;
+    padding: 2em;
+    background-color: rgba(15, 15, 15, 0.041);
+    border-radius: 8px;
+    border-color: #007b5e;
+    
+}
+
+.contact-section h2,
+.info-section h3 {
+    margin-top: 0;
+   
+}
+
+
+.contact-section p,
+.info-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.5em 2em;
+    color: white;
+    background-color: #007b5e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f46;
+}
+
+
+.content {
+    background-color: #f4f4f4;
+    padding: 2em;
+    text-align: center;
+}
+
+.image-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-section img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 2em;
+    border-radius: 8px;
+}
+
+.text-content {
+    max-width: 40%;
+    text-align: left;
+}
+
+.text-content h2 {
+    margin-top: 0;
+    font: size 1em;
+    color: rgba(6, 212, 6, 0.795);
+    font-weight:bold;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
