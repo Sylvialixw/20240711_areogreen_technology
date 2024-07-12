@@ -38,21 +38,39 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+    color:green;
 }
 
 .service-section {
-    background-color: #fff;
-    margin: 20px 0;
+    background-color: #1f1a1a1e;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid green; /* Add a green border */
+    border: 3px solid green; /* Add a green border */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    max-width: 1000px;
+    width: 80%; /* 设置固定宽度为80% */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+
+}
+
+.service-section h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center; /* Center items horizontally */
+ 
 }
 
 .service-section h2 {
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
+    align-items: center; /* Center items horizontally */
+    display: flex;
 }
 
 .image-container {
@@ -61,13 +79,14 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    max-height: 100px; /* Adjust height as needed */
+    max-height: 300px; /* Adjust height as needed */
+    overflow: hidden; /* Prevent image overflow */
 }
 
 .image-container img {
-    max-width: 100%;
-    height: auto;
-    max-width: 300px; /* Adjust the max width as needed */
+    max-width: 80%;
+    height: 300px;
+    max-width: 600px; /* Adjust the max width as needed */
     border-radius: 8px;
 }
 
@@ -77,7 +96,11 @@ nav ul li a:hover {
     padding: 10px;
     overflow: hidden;
 }
-
+.service-section p {
+    margin-top: 10px; /* Add space between image and text */
+    text-align: left; /* Align text to the left */
+    padding: 0 20px; /* Add padding to text */
+}
 
 
 .contact-content {
@@ -172,20 +195,21 @@ button:hover {
 
 .text-content {
     max-width: 40%;
-    text-align: left;
+    text-align: end;
 }
 
 .text-content h2 {
     margin-top: 0;
-    font-size: 1em;
+    font: size 2em;
     color: rgba(6, 212, 6, 0.795);
     font-weight:bold;
+    text-align:left
 }
 
 .text-content p {
-    font-size: 1.2em;
+    font-size: 1.0em;
     line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
 }
-
-
 
