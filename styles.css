@@ -40,6 +40,46 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.service-section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid green; /* Add a green border */
+}
+
+.service-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    max-height: 100px; /* Adjust height as needed */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    max-width: 300px; /* Adjust the max width as needed */
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+
 .contact-content {
     display:flex;
     justify-content: space-around;
@@ -137,7 +177,7 @@ button:hover {
 
 .text-content h2 {
     margin-top: 0;
-    font: size 1em;
+    font-size: 1em;
     color: rgba(6, 212, 6, 0.795);
     font-weight:bold;
 }
@@ -146,3 +186,6 @@ button:hover {
     font-size: 1.2em;
     line-height: 1.5;
 }
+
+
+
